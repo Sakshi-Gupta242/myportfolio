@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Sakshi Gupta Portfolio</title>
+
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav>
+<h2>SG</h2>
+<ul>
+<li><a href="#about">About</a></li>
+<li><a href="#education">Education</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#experience">Experience</a></li>
+<li><a href="#achievements">Achievements</a></li>
+<li><a href="#profiles">Profiles</a></li>
+<li><a href="#contact">Contact</a></li>
+<li><a href="resume.pdf" target="_blank">Resume</a></li>
+</ul>
+</nav>
+
+<!-- HERO -->
+<section id="about" class="hero glass">
+<div>
+<h1>Sakshi Gupta</h1>
+<h2 id="roles"></h2>
+
+<p>
+B.Tech CSE (Data Science) student passionate about problem solving, 
+DSA and web development. Focused on building real-world projects 🚀
+</p>
+
+<div class="buttons">
+<a href="#projects" class="btn">View Work</a>
+<a href="resume.pdf" download class="btn">Download Resume 📄</a>
+</div>
+</div>
+
+<img src="profile.jpg" class="profile">
+</section>
+
+<!-- EDUCATION -->
+<section id="education" class="section glass">
+<h2>🎓 Education</h2>
+<div class="card">B.Tech CSE (Data Science) – GL Bajaj | CGPA: 8.23</div>
+<div class="card">Class 12 – 83.6%</div>
+<div class="card">Class 10 – 87.16%</div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="section glass">
+<h2>🧠 Skills</h2>
+<div class="grid">
+<div class="card">Java</div>
+<div class="card">Python</div>
+<div class="card">C</div>
+<div class="card">DSA</div>
+<div class="card">OOPS</div>
+<div class="card">DBMS</div>
+<div class="card">HTML</div>
+<div class="card">CSS</div>
+<div class="card">JavaScript</div>
+<div class="card">SQL</div>
+<div class="card">Git & GitHub</div>
+</div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section glass">
+<h2>💻 Projects</h2>
+
+<div class="card">
+<h3>ClimateGuard AI 🌱</h3>
+<p>AI-based pollution monitoring system using predictive analytics.</p>
+</div>
+
+<div class="card">
+<h3>Portfolio Website 💻</h3>
+<p>Modern responsive portfolio using HTML, CSS, JS.</p>
+</div>
+
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience" class="section glass">
+<h2>💼 Experience</h2>
+
+<div class="card">
+🏆 NEC Finalist – IIT Bombay <br>
+Ranked among top teams nationwide
+</div>
+
+<div class="card">
+💡 Smart India Hackathon Participant
+</div>
+
+</section>
+
+<!-- ACHIEVEMENTS -->
+<section id="achievements" class="section glass">
+<h2>🏆 Achievements</h2>
+
+<div class="card">Solved 300+ DSA Problems</div>
+<div class="card">Competitive Programming Enthusiast</div>
+<div class="card">NCC Cadet</div>
+
+</section>
+
+<!-- PROFILES -->
+<section id="profiles" class="section glass">
+<h2>🌐 Profiles</h2>
+
+<div class="grid">
+<a href="https://leetcode.com" target="_blank" class="card leetcode">
+<i class="fas fa-code"></i><br> LeetCode
+</a>
+
+<a href="https://codeforces.com" target="_blank" class="card codeforces">
+<i class="fas fa-bolt"></i><br> Codeforces
+</a>
+
+<a href="https://github.com" target="_blank" class="card github">
+<i class="fab fa-github"></i><br> GitHub
+</a>
+
+<a href="https://geeksforgeeks.org" target="_blank" class="card gfg">
+<i class="fas fa-laptop-code"></i><br> GFG
+</a>
+</div>
+
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section glass">
+<h2>📩 Contact</h2>
+<p>Email: sakshigupta8486@gmail.com</p>
+</section>
+
+<!-- CHAT -->
+<button class="chat-btn" onclick="toggleChat()">💬</button>
+
+<div class="chatbox" id="chatbox">
+<input type="text" id="chatInput" placeholder="Ask about me...">
+<button onclick="sendMessage()">Send</button>
+<p id="chatReply"></p>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
